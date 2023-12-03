@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ImagesViewCell: UICollectionViewCell {
-
+class ImagesViewCell: UICollectionViewCell, Reusable {
+    
+    @IBOutlet weak var imgView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

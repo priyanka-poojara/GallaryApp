@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C85B828B-80CC-471B-8AFA-D5FF33D5E1CC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BA41064-2205-46FB-9546-9A110DA18581"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GallaryApp/Scenes/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "apiGetData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BA41064-2205-46FB-9546-9A110DA18581 - 6a86dd46a98158dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageModel&gt;&gt;, Swift.Bool, Swift.String) -&gt; () in GallaryApp.ViewModel.apiGetData(completion: (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageModel&gt;&gt;, Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "0BA41064-2205-46FB-9546-9A110DA18581 - 571d607568972edb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageList&gt;&gt;, Swift.Bool, Swift.String) -&gt; () in GallaryApp.ViewModel.apiGetData(completion: (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageList&gt;&gt;, Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E85C1EC-B029-4F2B-947B-E33EA7004DF8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GallaryApp/Scenes/Dashboard/Repo/DashboardRepo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "callApi(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E85C1EC-B029-4F2B-947B-E33EA7004DF8 - 734f9c927e5d2c3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(Swift.Dictionary&lt;Swift.String, Any&gt;, Foundation.Data), DGNetworkingServices.NError&gt;) -&gt; () in GallaryApp.DashboardRepo.callApi(completion: (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageList&gt;&gt;, Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/Dashboard/Repo/DashboardRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "9E85C1EC-B029-4F2B-947B-E33EA7004DF8 - 734f9c927e5d2c50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(Swift.Dictionary&lt;Swift.String, Any&gt;, Foundation.Data), DGNetworkingServices.NError&gt;) -&gt; () in GallaryApp.DashboardRepo.callApi(completion: (Swift.Optional&lt;Swift.Array&lt;GallaryApp.ImageList&gt;&gt;, Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/Dashboard/Repo/DashboardRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C676C09B-7F8D-40ED-8E01-5E66785B6782"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GallaryApp/Scenes/LoginView/Controller/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "actionLogin(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C676C09B-7F8D-40ED-8E01-5E66785B6782 - 7dec8027d5fa6f2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GallaryApp.LoginViewController.actionLogin(Any) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/LoginView/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C676C09B-7F8D-40ED-8E01-5E66785B6782 - 7dec8027d5fa6f2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GallaryApp.LoginViewController.actionLogin(Any) -&gt; ()"
+                  moduleName = "GallaryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka/Documents/Practicals/GallaryApp/GallaryApp/Scenes/LoginView/Controller/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

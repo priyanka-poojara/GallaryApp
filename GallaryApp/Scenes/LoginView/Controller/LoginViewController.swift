@@ -6,24 +6,38 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class LoginViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        title = Constants.appName
+        navigateToDashboard()
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func actionLogin(_ sender: Any) {
+        
+        GIDSignIn.sharedInstance.signIn(withPresenting: self) { googleUser, error in
+            guard let googleUser = googleUser else {
+                return
+            }
+            
+            let token = googleUser.user.userID
+            UserDefault.shared.saveToken(token: token)
+    
+            let vc = DashboardViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
     }
-    */
-
+    
+    func navigateToDashboard() {
+        if UserDefault.shared.isUserLoggedIn() {
+            // Navigation code
+            let vc = DashboardViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
